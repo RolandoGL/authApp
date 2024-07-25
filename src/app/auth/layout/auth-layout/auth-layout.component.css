@@ -1,0 +1,14 @@
+
+.bg{
+  background-image: url('../../../../assets/images/bg-01.jpg');
+  /* background-color: light-dark(var(--m), var(--dark-color-2)); */
+  /* filter: hue-rotate(209deg)  grayscale(0.33) contrast(0.9) saturate(3) brightness(0.8);
+  filter: light-dark(inver(0),invert(1)); */
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Estilos para el modo oscuro */
+  .bg {
+    filter: hue-rotate(209deg) invert(1) grayscale(0.33) contrast(0.9) saturate(3) brightness(0.8);
+  }
+}
